@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="lab9.css">
+    <title>Lab9</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Гра 21</h1>
+        </header>
+        <main>
+            <section class="play-area">
+                <div id="player-area" class="card-section">
+                    <h3>Карти гравця:</h3>
+                    <div id="player-cards" class="cards-display"></div>
+                </div>
+                <div id="dealer-area" class="card-section">
+                    <h3>Карти опонента::</h3>
+                    <div id="dealer-cards" class="cards-display"></div>
+                </div>
+            </section>
+            <section class="score-area">
+                <p id="player-score">Рахунок гравця: 0</p>
+                <p id="dealer-score">Рахунок опонента: 0</p>
+            </section>
+            <section class="controls">
+                <button id="new-game">Почати гру </button>
+                <button id="draw-card">Взяти карту </button>
+                <button id="hold">Зупинитись</button>
+            </section>
+            <p id="outcome" class="result"></p>
+        </main>
+    </div>
+
+    <script src="lab.js"> </script>
+</body>
+</html>
